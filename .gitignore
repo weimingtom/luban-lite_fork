@@ -13,7 +13,7 @@ partition_table.h
 .vscode/
 .cscope/
 output/
-/toolchain/
+!/toolchain/
 build/
 tools/toolchain/Xuantie-900-gcc-elf-newlib-x86_64
 tools/toolchain/Xuantie-900-gcc-elf-newlib-mingw
