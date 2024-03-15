@@ -25,3 +25,7 @@ scons -j8
 ```
 git checkout -f v1.0.2
 ```
+
+## Removed files list  
+* TODO  
+* gitignore  
