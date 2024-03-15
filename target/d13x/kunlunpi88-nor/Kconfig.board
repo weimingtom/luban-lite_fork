@@ -205,7 +205,7 @@ config AIC_USING_GMAC0
     default n
     select AIC_GMAC_DRV
 
-source "packages/third-party/lwip/contrib/ports/drv/aic/Kconfig.dev"
+#source "packages/third-party/lwip/contrib/ports/drv/aic/Kconfig.dev"
 
 #================================================
 # Storage Class
