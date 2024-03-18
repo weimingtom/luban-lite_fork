@@ -139,6 +139,9 @@ config AIC_LVGL_MUSIC_DEMO
 
 config AIC_LVGL_MUSIC_PLAYER_DEMO
     bool "LVGL music player demo with data directory"
+
+config AIC_LVGL_WIDGETS_DEMO
+    bool "LVGL widgets demo"
 endchoice
 
 config LV_COLOR_DEPTH

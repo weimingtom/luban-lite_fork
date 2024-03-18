@@ -28,5 +28,10 @@ void aic_ui_init()
     extern void lv_demo_music(void);
     lv_demo_music();
 #endif
+
+#ifdef AIC_LVGL_WIDGETS_DEMO
+    extern void lv_demo_widgets(void);
+    lv_demo_widgets();
+#endif
     return;
 }

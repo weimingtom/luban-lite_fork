@@ -50,6 +50,15 @@
 // #define LV_COLOR_SCREEN_TRANSP    1
 #endif /* LPKG_USING_LV_MUSIC_DEMO */
 
+#if defined(AIC_LVGL_MUSIC_PLAYER_DEMO)
+#define LV_USE_DEMO_MUSIC 1
+#endif
+
+#if defined(AIC_LVGL_WIDGETS_DEMO)
+#define LV_USE_DEMO_WIDGETS 1
+//#define LV_DEMO_WIDGETS_SLIDESHOW 0
+#endif
+
 #define LV_USE_FREETYPE 0
 #if LV_USE_FREETYPE
     // Memory used by FreeType to cache characters [bytes]
