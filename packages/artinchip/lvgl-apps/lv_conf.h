@@ -41,7 +41,7 @@
     #define LV_FS_POSIX_CACHE_SIZE 0    /*>0 to cache this number of bytes in lv_fs_read()*/
 #endif
 
-#ifdef LPKG_USING_LV_MUSIC_DEMO
+#if defined(LPKG_USING_LV_MUSIC_DEMO) || defined(AIC_LVGL_MUSIC_PLAYER_DEMO)
 /* music player demo */
 #define LV_USE_DEMO_RTT_MUSIC       1
 #define LV_DEMO_RTT_MUSIC_AUTO_PLAY 1
