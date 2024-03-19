@@ -38,5 +38,10 @@ void aic_ui_init()
 	extern void lv_demo_stress(void);
 	lv_demo_stress();
 #endif	
+
+#ifdef AIC_LVGL_KEYPAD_ENCODER_DEMO
+	extern void lv_demo_keypad_encoder(void);
+	lv_demo_keypad_encoder();
+#endif	
     return;
 }

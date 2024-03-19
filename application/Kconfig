@@ -145,6 +145,9 @@ config AIC_LVGL_WIDGETS_DEMO
 
 config AIC_LVGL_STRESS_DEMO
     bool "LVGL stress demo"
+
+config AIC_LVGL_KEYPAD_ENCODER_DEMO
+    bool "LVGL keypad and encoder demo"
 endchoice
 
 config LV_COLOR_DEPTH

@@ -63,6 +63,10 @@
 #define LV_USE_DEMO_STRESS 1
 #endif
 
+#if defined(AIC_LVGL_KEYPAD_ENCODER_DEMO)
+#define LV_USE_DEMO_KEYPAD_AND_ENCODER 1
+#endif
+
 #define LV_USE_FREETYPE 0
 #if LV_USE_FREETYPE
     // Memory used by FreeType to cache characters [bytes]
