@@ -59,6 +59,10 @@
 //#define LV_DEMO_WIDGETS_SLIDESHOW 0
 #endif
 
+#if defined(AIC_LVGL_STRESS_DEMO)
+#define LV_USE_DEMO_STRESS 1
+#endif
+
 #define LV_USE_FREETYPE 0
 #if LV_USE_FREETYPE
     // Memory used by FreeType to cache characters [bytes]

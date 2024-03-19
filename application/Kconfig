@@ -142,6 +142,9 @@ config AIC_LVGL_MUSIC_PLAYER_DEMO
 
 config AIC_LVGL_WIDGETS_DEMO
     bool "LVGL widgets demo"
+
+config AIC_LVGL_STRESS_DEMO
+    bool "LVGL stress demo"
 endchoice
 
 config LV_COLOR_DEPTH

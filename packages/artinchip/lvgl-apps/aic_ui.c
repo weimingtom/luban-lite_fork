@@ -33,5 +33,10 @@ void aic_ui_init()
     extern void lv_demo_widgets(void);
     lv_demo_widgets();
 #endif
+
+#ifdef AIC_LVGL_STRESS_DEMO
+	extern void lv_demo_stress(void);
+	lv_demo_stress();
+#endif	
     return;
 }
