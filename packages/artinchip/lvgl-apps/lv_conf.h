@@ -67,6 +67,12 @@
 #define LV_USE_DEMO_KEYPAD_AND_ENCODER 1
 #endif
 
+#if defined(AIC_LVGL_BENCHMARK_DEMO)
+#define LV_USE_DEMO_BENCHMARK 1
+/*Use RGB565A8 images with 16 bit color depth instead of ARGB8565*/
+//#define LV_DEMO_BENCHMARK_RGB565A8 0
+#endif
+
 #define LV_USE_FREETYPE 0
 #if LV_USE_FREETYPE
     // Memory used by FreeType to cache characters [bytes]

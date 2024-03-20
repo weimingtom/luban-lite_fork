@@ -43,5 +43,10 @@ void aic_ui_init()
 	extern void lv_demo_keypad_encoder(void);
 	lv_demo_keypad_encoder();
 #endif	
+
+#ifdef AIC_LVGL_BENCHMARK_DEMO
+	extern void lv_demo_benchmark(void);
+	lv_demo_benchmark();
+#endif	
     return;
 }
