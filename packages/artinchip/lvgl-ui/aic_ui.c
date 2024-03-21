@@ -29,5 +29,29 @@ void aic_ui_init()
     lv_demo_music();
 #endif
 
+#ifdef AIC_LVGL_MUSIC_PLAYER_DEMO
+    extern void lv_demo_music(void);
+    lv_demo_music();
+#endif
+
+#ifdef AIC_LVGL_WIDGETS_DEMO
+    extern void lv_demo_widgets(void);
+    lv_demo_widgets();
+#endif
+
+#ifdef AIC_LVGL_STRESS_DEMO
+	extern void lv_demo_stress(void);
+	lv_demo_stress();
+#endif	
+
+#ifdef AIC_LVGL_KEYPAD_ENCODER_DEMO
+	extern void lv_demo_keypad_encoder(void);
+	lv_demo_keypad_encoder();
+#endif	
+
+#ifdef AIC_LVGL_BENCHMARK_DEMO
+	extern void lv_demo_benchmark(void);
+	lv_demo_benchmark();
+#endif	
     return;
 }

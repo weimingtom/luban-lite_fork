@@ -56,11 +56,36 @@
 // #define LV_COLOR_SCREEN_TRANSP    1
 #endif /* LPKG_USING_LV_MUSIC_DEMO */
 
-#ifdef AIC_LVGL_LAUNCHER_DEMO
-#define LV_USE_DEMO_RTT_MUSIC       1
+#ifdef AIC_LVGL_MUSIC_PLAYER_DEMO
+//#define LV_USE_DEMO_RTT_MUSIC       1
+//#define LV_DEMO_RTT_MUSIC_AUTO_PLAY 1
 #define LV_DEMO_RTT_MUSIC_AUTO_PLAY 1
 #define LV_FONT_MONTSERRAT_12       1
 #define LV_FONT_MONTSERRAT_16       1
+// #define LV_COLOR_SCREEN_TRANSP    1
+#endif
+
+#if defined(AIC_LVGL_MUSIC_PLAYER_DEMO)
+#define LV_USE_DEMO_MUSIC 1
+#endif
+
+#if defined(AIC_LVGL_WIDGETS_DEMO)
+#define LV_USE_DEMO_WIDGETS 1
+//#define LV_DEMO_WIDGETS_SLIDESHOW 0
+#endif
+
+#if defined(AIC_LVGL_STRESS_DEMO)
+#define LV_USE_DEMO_STRESS 1
+#endif
+
+#if defined(AIC_LVGL_KEYPAD_ENCODER_DEMO)
+#define LV_USE_DEMO_KEYPAD_AND_ENCODER 1
+#endif
+
+#if defined(AIC_LVGL_BENCHMARK_DEMO)
+#define LV_USE_DEMO_BENCHMARK 1
+/*Use RGB565A8 images with 16 bit color depth instead of ARGB8565*/
+//#define LV_DEMO_BENCHMARK_RGB565A8 0
 #endif
 
 #define LV_USE_FREETYPE 0

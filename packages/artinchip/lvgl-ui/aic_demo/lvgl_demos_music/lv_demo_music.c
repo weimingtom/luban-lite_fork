@@ -115,7 +115,7 @@ static const uint32_t time_list[] = {
  *   GLOBAL FUNCTIONS
  **********************/
 
-void launcher_ui_init(void)
+void lv_demo_music(void)
 {
     lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0x343247), 0);
 #if HAVE_MUSIC_LIST

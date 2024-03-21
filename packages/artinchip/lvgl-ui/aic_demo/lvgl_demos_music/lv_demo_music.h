@@ -15,15 +15,10 @@ extern "C" {
  *********************/
 #include <lvgl.h>
 
-#ifdef AIC_LVGL_LAUNCHER_DEMO
-#undef LV_USE_DEMO_RTT_MUSIC
-#define LV_USE_DEMO_RTT_MUSIC 1
-#endif
-
-#if LV_USE_DEMO_RTT_MUSIC
-#undef LV_USE_DEMO_MUSIC
-#define LV_USE_DEMO_MUSIC 1
-#endif
+//#if LV_USE_DEMO_RTT_MUSIC
+//#undef LV_USE_DEMO_MUSIC
+//#define LV_USE_DEMO_MUSIC 1
+//#endif
 
 #if LV_USE_DEMO_MUSIC
 

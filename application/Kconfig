@@ -187,6 +187,20 @@ if KERNEL_BAREMETAL
         bool "LVGL gif demo"
 endif
 
+config AIC_LVGL_MUSIC_PLAYER_DEMO
+    bool "LVGL music player demo with data directory"
+
+config AIC_LVGL_WIDGETS_DEMO
+    bool "LVGL widgets demo"
+
+config AIC_LVGL_STRESS_DEMO
+    bool "LVGL stress demo"
+
+config AIC_LVGL_KEYPAD_ENCODER_DEMO
+    bool "LVGL keypad and encoder demo"
+
+config AIC_LVGL_BENCHMARK_DEMO
+    bool "LVGL benchmark demo"
 endchoice
 
 config LV_COLOR_DEPTH
