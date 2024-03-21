@@ -37,7 +37,7 @@ void lv_demo_widgets(void);
 #define LV_DEMO_WIDGETS_SLIDESHOW 0
 
 #if HAVE_WIDGETS_PNG
-#include "../../../artinchip/lvgl-apps/aic_ui.h"
+#include "../../../../artinchip/lvgl-ui/aic_ui.h"
 #endif
 
 #ifdef __cplusplus

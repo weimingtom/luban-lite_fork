@@ -55,7 +55,7 @@ void lv_demo_benchmark_set_max_speed(bool en);
 //#endif
 
 #if HAVE_BENCHMARK_PNG
-#include "../../../artinchip/lvgl-apps/aic_ui.h"
+#include "../../../../artinchip/lvgl-ui/aic_ui.h"
 #endif
 
 #ifdef __cplusplus

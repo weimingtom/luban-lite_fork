@@ -35,7 +35,7 @@ void lv_demo_keypad_encoder(void);
 #define HAVE_KEYPAD_ENCODER_FONT 0
 
 #if HAVE_KEYPAD_ENCODER_PNG
-#include "../../../artinchip/lvgl-apps/aic_ui.h"
+#include "../../../../artinchip/lvgl-ui/aic_ui.h"
 #endif
 
 #ifdef __cplusplus
