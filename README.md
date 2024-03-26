@@ -29,3 +29,6 @@ git checkout -f v1.0.2
 ## Removed files list  
 * TODO  
 * gitignore  
+
+## Image converter, LVGL 8.3.2 VS2013 emulator    
+* https://github.com/weimingtom/luban-lite_fork_tools_vs2013  
